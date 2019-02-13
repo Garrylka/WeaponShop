@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Используется по умолчанию для Смартфонов в альбомном режиме -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_padding"
+    tools:context="ru.geekbrains.android1.lab6.weaponshop.CategoryFragment">
+
+    <!-- Картинка Категории продукции (вложенный фрагмент) -->
+    <fragment
+        class="ru.geekbrains.android1.lab6.weaponshop.CategoryImageFragment"
+        android:id="@+id/fragmentImageCategory"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+    <!-- Иконка и название Категории продукции -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_marginLeft="@dimen/margin_vertical"
+        android:layout_marginStart="@dimen/margin_vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:background="@drawable/text_border" >
+
+            <ImageView
+                android:id="@+id/iconCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="@dimen/icon_border_padding1" />
+
+            <TextView
+                android:id="@+id/nameCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <!-- Список подкатегорий продукции -->
+        <ListView
+            android:id="@+id/listSubCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_border" />
+    </LinearLayout>
+</LinearLayout>

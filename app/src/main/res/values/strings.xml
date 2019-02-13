@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeaponShop</string>
+    <string name="shop_logo_text">Рособоронэкспорт</string>
+    <string name="shop_copyright">Материал взят с сайта www.roe.ru</string>
+    <string name="shop_catalog_text">Каталог продукции</string>
+    <string name="shop_subcatalog_text">Подкаталог продукции</string>
+    <string name="shop_product_text">Продукция</string>
+    <string name="shop_detail_text">Описание продукции</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Fragment: Используется для любых устройств и любых режимов -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context="ru.geekbrains.android1.lab6.weaponshop.CatalogFragment">
+
+    <!-- Logo магазина -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/img_shop_logo"
+        android:contentDescription="@string/shop_logo_text"
+        android:background="@drawable/text_border" />
+
+    <!-- Титл списка -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/shop_catalog_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_shop_logo_text"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:background="@drawable/text_border" />
+
+    <!-- Основной Каталог продукции -->
+    <ListView
+        android:id="@+id/listCatalog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:background="@drawable/text_border" />
+
+    <!-- Copyright -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/shop_copyright"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:textColor="@color/color_shop_logo_text"
+        android:background="@drawable/text_border" />
+</LinearLayout>

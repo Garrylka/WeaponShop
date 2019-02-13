@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Каталог продукции (Категории продукции) -->
+
+<resources>
+
+    <!-- Имена категорий -->
+    <string-array name="category_names">
+        <item>СУХОПУТНЫЕ ВОЙCКА</item>
+        <item>ВОЗДУШНО-КОСМИЧЕСКИЕ СИЛЫ</item>
+        <item>ВОЕННО-МОРСКОЙ ФЛОТ</item>
+        <item>ПРОТИВОВОЗДУШНАЯ ОБОРОНА</item>
+        <item>СПЕЦИАЛЬНЫЕ СРЕДСТВА</item>
+    </string-array>
+
+    <!-- Иконки категорий -->
+    <array name="category_icons">
+        <item>@drawable/ico_category01</item>
+        <item>@drawable/ico_category02</item>
+        <item>@drawable/ico_category03</item>
+        <item>@drawable/ico_category04</item>
+        <item>@drawable/ico_category05</item>
+    </array>
+
+    <!-- Массивы Картинок категорий -->
+    <array name="category_images">
+        <item>@array/category01_images</item>
+        <item>@array/category02_images</item>
+        <item>@array/category03_images</item>
+        <item>@array/category04_images</item>
+        <item>@array/category05_images</item>
+    </array>
+
+    <!-- Массив Картинок категории 01 - СУХОПУТНЫЕ ВОЙCКА -->
+    <array name="category01_images">
+        <item>@drawable/img_category01_01</item>
+        <item>@drawable/img_category01_02</item>
+        <item>@drawable/img_category01_03</item>
+        <item>@drawable/img_category01_04</item>
+        <item>@drawable/img_category01_05</item>
+        <item>@drawable/img_category01_06</item>
+        <item>@drawable/img_category01_07</item>
+    </array>
+
+    <!-- Массив Картинок категории 02 - ВОЗДУШНО-КОСМИЧЕСКИЕ СИЛЫ -->
+    <array name="category02_images">
+        <item>@drawable/img_category02_01</item>
+        <item>@drawable/img_category02_02</item>
+        <item>@drawable/img_category02_03</item>
+        <item>@drawable/img_category02_04</item>
+        <item>@drawable/img_category02_05</item>
+        <item>@drawable/img_category02_06</item>
+        <item>@drawable/img_category02_07</item>
+        <item>@drawable/img_category02_08</item>
+        <item>@drawable/img_category02_09</item>
+    </array>
+
+    <!-- Массив Картинок категории 03 - ВОЕННО-МОРСКОЙ ФЛОТ -->
+    <array name="category03_images">
+        <item>@drawable/img_category03_01</item>
+        <item>@drawable/img_category03_02</item>
+        <item>@drawable/img_category03_03</item>
+        <item>@drawable/img_category03_04</item>
+        <item>@drawable/img_category03_05</item>
+        <item>@drawable/img_category03_06</item>
+        <item>@drawable/img_category03_07</item>
+    </array>
+
+    <!-- Массив Картинок категории 04 - ПРОТИВОВОЗДУШНАЯ ОБОРОНА -->
+    <array name="category04_images">
+        <item>@drawable/img_category04_01</item>
+        <item>@drawable/img_category04_02</item>
+        <item>@drawable/img_category04_03</item>
+        <item>@drawable/img_category04_04</item>
+        <item>@drawable/img_category04_05</item>
+    </array>
+
+    <!-- Массив Картинок категории 05 - СПЕЦИАЛЬНЫЕ СРЕДСТВА -->
+    <array name="category05_images">
+        <item>@drawable/img_category05_01</item>
+        <item>@drawable/img_category05_02</item>
+        <item>@drawable/img_category05_03</item>
+        <item>@drawable/img_category05_04</item>
+        <item>@drawable/img_category05_05</item>
+        <item>@drawable/img_category05_06</item>
+        <item>@drawable/img_category05_07</item>
+        <item>@drawable/img_category05_08</item>
+    </array>
+
+    <!-- Цвета категорий -->
+    <array name="category_colors">
+        <item>#757A4C</item>
+        <item>#4596CB</item>
+        <item>#0533a7</item>
+        <item>#a08f65</item>
+        <item>#808387</item>
+    </array>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Используется по умолчанию для Смартфонов в любом режиме -->
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    class="ru.geekbrains.android1.lab6.weaponshop.CatalogFragment"
+    android:id="@+id/fragmentCatalog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" />
